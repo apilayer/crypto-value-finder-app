@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bitcoin",
+    "short": "BTC"
+  },
+  {
+    "name": "Ethereum",
+    "short": "ETH"
+  },
+  {
+    "name": "Binance Coin",
+    "short": "BNB"
+  },
+  {
+    "name": "Ripple",
+    "short": "XRP"
+  },
+  {
+    "name": "Cardano",
+    "short": "ADA"
+  },
+  {
+    "name": "Solana",
+    "short": "SOL"
+  },
+  {
+    "name": "Dogecoin",
+    "short": "DOGE"
+  },
+  {
+    "name": "Polkadot",
+    "short": "DOT"
+  },
+  {
+    "name": "Polygon",
+    "short": "MATIC"
+  },
+  {
+    "name": "Litecoin",
+    "short": "LTC"
+  },
+  {
+    "name": "Shiba Inu",
+    "short": "SHIB"
+  },
+  {
+    "name": "Avalanche",
+    "short": "AVAX"
+  },
+  {
+    "name": "Chainlink",
+    "short": "LINK"
+  },
+  {
+    "name": "Uniswap",
+    "short": "UNI"
+  },
+  {
+    "name": "Cosmos",
+    "short": "ATOM"
+  },
+  {
+    "name": "Stellar",
+    "short": "XLM"
+  },
+  {
+    "name": "Tron",
+    "short": "TRX"
+  },
+  {
+    "name": "Bitcoin Cash",
+    "short": "BCH"
+  },
+  {
+    "name": "ApeCoin",
+    "short": "APE"
+  },
+  {
+    "name": "Filecoin",
+    "short": "FIL"
+  }
+]
