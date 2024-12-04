@@ -12,7 +12,7 @@ const CryptoDropdown = () => {
 
   const getNews = async (getCrypto) => {
     const response = await fetch(
-      `http://api.mediastack.com/v1/news?access_key=${MEDIA_STACK_API_KEY}&keywords=${getCrypto}`
+      `http://api.mediastack.com/v1/news?access_key=${import.meta.env.VITE_MEDIA_STACK_API_KEY}&keywords=${getCrypto}`
     );
     const result = await response.json();
     const latesNews = []; // Initialize an empty array
@@ -39,7 +39,7 @@ const CryptoDropdown = () => {
   useEffect(() => {
     const getData = async () => {
       const response = await fetch(
-        `https://api.coinlayer.com/2024-11-20?access_key=${COIN_LAYER_API_KEY}&target=${selectedCurrency}`
+        `https://api.coinlayer.com/2024-11-20?access_key=${import.meta.env.VITE_COIN_LAYER_API_KEY}&target=${selectedCurrency}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");

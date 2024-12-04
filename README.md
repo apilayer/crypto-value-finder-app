@@ -37,8 +37,8 @@ To set up the Crypto Value Finder App project locally, follow these steps:
 4. Create a `.env.local` file in the root directory and add your API keys:
 
    ```
-   MEDIA_STACK_API_KEY=your_media_stack_api_key_here
-   COIN_LAYER_API_KEY=your_coin_layer_api_key_here
+   VITE_MEDIA_STACK_API_KEY=your_media_stack_api_key_here
+   VITE_COIN_LAYER_API_KEY=your_coin_layer_api_key_here
    ```
 
 5. Run the development server:
